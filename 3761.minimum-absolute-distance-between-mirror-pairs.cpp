@@ -8,7 +8,7 @@
 class Solution {
 public:
     int reverse(int num) {
-        int temp = 0;
+        int temp=0;
         while (num > 0) {
             temp = temp * 10 + (num % 10);
             num /= 10;
